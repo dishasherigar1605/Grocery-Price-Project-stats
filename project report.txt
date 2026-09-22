@@ -1,0 +1,89 @@
+PRICE WAR IN PUNE: A STATISTICAL COMPARISON OF KIRANA, DMART & BLINKIT
+
+Course: B.Sc. Statistics – Practical Project 2026 Location: Pune,
+Maharashtra
+
+1. Abstract
+
+This project compares the retail prices of 15 daily essential grocery
+items across three popular purchasing channels in Pune: Local Kirana
+Stores, DMart, and Blinkit. The objective is to determine whether a
+significant difference exists in prices and identify the most economical
+option for students. Descriptive statistics and One-Way ANOVA were used
+for analysis.
+
+2. Objectives
+
+1.  To collect primary price data for commonly used grocery items.
+2.  To calculate Mean, Median, and Standard Deviation.
+3.  To perform a One-Way ANOVA test to determine whether price
+    differences are statistically significant.
+4.  To visualize the data using a Grouped Bar Chart and Boxplot.
+
+3. Data Collection
+
+Method: Primary data collected on 22 September 2026 from a local Kirana
+Store near campus, DMart Aundh, and Blinkit (Pune location).
+
+Sample Items: Milk, Bread, Eggs, Maggi, Coke, Lays, Rice, Dal, Oil,
+Sugar, Tea, Biscuit, Curd, Paneer, Water.
+
+Total Observations: 15 × 3 = 45 price observations.
+
+4. Descriptive Statistics
+
+  Channel   Mean Price (₹)   Standard Deviation   Median Price (₹)
+  --------- ---------------- -------------------- ------------------
+  Kirana    63.26            38.25                56
+  DMart     59.06            37.15                54
+  Blinkit   70.40            39.56                61
+
+Key Findings: - DMart was the cheapest option for all 15 items. -
+Blinkit was the most expensive option for all 15 items. - Average saving
+in DMart compared to Kirana: ₹4.2 per item (6.6%). - Average Blinkit
+premium compared to Kirana: ₹7.1 per item (11.2%).
+
+5. Inferential Statistics – One-Way ANOVA
+
+Null Hypothesis (H₀): Mean prices of Kirana, DMart, and Blinkit are
+equal. Alternative Hypothesis (H₁): At least one channel has a different
+mean price.
+
+Results: - F-Statistic = 0.32 - P-Value = 0.7304
+
+Interpretation: Since p-value > 0.05, the null hypothesis cannot be
+rejected. The difference in average prices is not statistically
+significant at the 5% level. However, DMart remains practically cheaper
+across all sampled items.
+
+6. Data Visualization
+
+Figure 1: Grouped Bar Chart comparing prices across all items. Figure 2:
+Boxplot showing price distribution across channels.
+
+7. Conclusion
+
+DMart is the most economical option among the three channels. Although
+ANOVA does not show a statistically significant difference, practical
+savings are meaningful. A student spending approximately ₹3000 per month
+on groceries could save around ₹330 monthly by choosing DMart over
+Blinkit.
+
+8. Limitations
+
+1.  Small sample size (15 items).
+2.  Prices may vary across locations.
+3.  Promotional discounts were not included.
+4.  Data was collected on a single date.
+
+9. Software Used
+
+Python, Pandas, Matplotlib, SciPy
+
+10. References
+
+-   DMart Product Prices (Aundh Store)
+-   Blinkit App (Pune Location)
+-   Local Kirana Store Survey
+-   Python Documentation
+-   SciPy Documentation
